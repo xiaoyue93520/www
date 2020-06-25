@@ -1,0 +1,682 @@
+/* $Id: xoops.css 2576 2008-12-06 16:47:24Z beckmi $ */
+table {
+    width:      100%;
+}
+
+img {
+    border:     0;
+}
+
+img.center {
+    text-align:     center;
+    margin:         0 auto;
+    display:        block;
+    margin-top:     6px;
+    margin-bottom:  4px;
+}
+
+img.left {
+    text-align:     left;
+    float:          left;
+    margin:         2px 6px 2px 0;
+    clear:          left;
+}
+
+img.right {
+    float:          right;
+    text-align:     right;
+    margin:         2px 0 2px 6px;
+    clear:          right;
+}
+
+acronym, abbr, dfn {
+    cursor:         help;
+}
+
+#xoopsHiddenText {
+    visibility:         hidden;
+    color:              #000000;
+    font-weight:        normal;
+    font-style:         normal;
+    text-decoration:    none;
+}
+
+.pagneutral {
+    font-size:          10px;
+    width:              16px;
+    height:             19px;
+    text-align:         center;
+    background-image:   url(./images/pagneutral.gif);
+}
+
+.pagact {
+    font-size:          10px;
+    width:              16px;
+    height:             19px;
+    text-align:         center;
+    background-image:   url(./images/pagact.gif);
+}
+
+.paginact {
+    font-size:          10px;
+    width:              16px;
+    height:             19px;
+    text-align:         center;
+    background-image:   url(./images/paginact.gif);
+}
+
+
+
+/* For required elements in XOOPS form, can be overwritten in theme styles */
+.xoops-form-element-caption .caption-marker {
+    display:            none;
+}
+
+.xoops-form-element-caption-required .caption-marker {
+	background-color:   inherit;
+	padding-left: 	    2px;
+	color: 			    #ff0000;
+}
+
+.xoops-form-element-help {
+	font-size:		    .9em;
+    padding-top:        5px;
+    font-weight:        normal;
+}
+body, hr, blockquote, dl, dt, dd, ul, ol, li,  pre, form, fieldset, legend, button, input, textarea,  th, td {
+    margin: 0;
+    padding: 0;
+}
+
+body, button, input, select, textarea /* for ie */ {
+    font: 12px/1.6 "Microsoft YaHei",Arial,Helvetica,sans-serif,"å®‹ä½“", \5b8b\4f53;
+}
+
+address, cite, dfn, em, var {
+    font-style: normal;
+}
+code, kbd, pre, samp {
+    font-family: courier new, courier, monospace;
+}
+small {
+    font-size: 12px;
+}
+ul, ol {
+    list-style: none;
+}
+
+a {
+    color: #333;
+    text-decoration: none;
+}
+a:hover {
+    color: #3399FF;
+    text-decoration: none;
+}
+sup {
+    vertical-align: text-top;
+}
+sub {
+    vertical-align: text-bottom;
+}
+
+legend {
+    color: #000;
+} /* for ie6 */
+fieldset, img {
+    border: none;
+}
+button, input, select, textarea {
+    font-size: 100%;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+.clearfix {
+    clear:both;
+}
+.fl {
+    float:left;
+}
+.fr {
+    float:right;
+}
+.hidden {
+    display: none;
+}
+
+h1 {font-size:1.4em;}
+h2 {font-size:1.3em;}
+h3 {font-size:1.2em;}
+h4 {font-size:1.1em;}
+h5 {font-size:1em;}
+
+
+input.formButton {}
+
+.item {border: 1px solid #666;}
+.itemHead {padding: 3px; background-color: #2A75C5; color: #fff;}
+.itemInfo {text-align: right; padding: 3px; background-color: #efefef}
+.itemTitle a {font-size: 1.2em; font-weight: bold; font-variant: small-caps; color: #fff; background-color: transparent;}
+.itemPoster {font-size: .9em; font-style:italic;}
+.itemPostDate {font-size: .9em; font-style:italic;}
+.itemStats {font-size: .9em; font-style:italic;}
+.itemBody {padding-left: 5px;}
+.itemText {margin-top: 5px; margin-bottom: 5px; line-height: 1.5em;}
+.itemText:first-letter {font-size: 1.3em; font-weight: bold;}
+.itemFoot {text-align: right; padding: 3px; background-color: #efefef;}
+.itemAdminLink {font-size: .9em;}
+.itemPermaLink {font-size: .9em;}
+
+#header {
+    margin :                0;
+    padding :               0;
+    height:                 80px;
+    background:             #2A75C5 url(xo-banner_bg.png) repeat-x left top;
+    padding:                2px;
+    color:                  #fff;
+    border:                 1px solid #000;
+}
+#headerbanner {width: 100%; vertical-align: middle; text-align:center;}
+#headerlogo img {padding: 0;}
+#headerbar {border-bottom: 1px solid #ddd; background-image: url(hbar.gif);}
+
+#leftcolumn {width: 170px; border-right: 1px solid #ccc; font-size:1em;}
+#leftcolumn th {background-color: #2A75C5; color: #fff; vertical-align: middle;}
+#leftcolumn .blockTitle {padding: 3px; background-color: #ddd; color: #2A75C5; font-weight: bold;}
+#leftcolumn .blockContent {padding: 3px; line-height: 1.2em;}
+
+
+#centercolumn {font-size: 1em;}
+#centercolumn th {background-color: #2A75C5; color: #fff; vertical-align: middle;}
+
+#centerCcolumn, #bottomCcolumn {padding: 0 3px 1px 3px;}
+#centerCcolumn .blockTitle, #bottomCcolumn .blockTitle {padding: 3px; color: #2A75C5; font-weight: bold; margin-top: 0; margin-right: 0;  margin-left: 0; font-size:1.1em;}
+#centerCcolumn .blockContent, #bottomCcolumn .blockContent {border-left: 1px solid #ccc; border-right: 1px solid #ccc; border-bottom: 1px solid #ddd; padding: 3px; margin-right: 0;  margin-left: 0; margin-bottom: 2px; line-height: 1.2em;}
+
+#centerLcolumn, #bottomLcolumn, #centerRcolumn, #bottomRcolumn {
+        width: 50%; padding: 0 3px 0 0;
+}
+#centerLcolumn .blockTitle, #bottomLcolumn .blockTitle, #centerRcolumn .blockTitle, #bottomRcolumn .blockTitle {
+        padding: 3px; color: #2A75C5; font-weight: bold; margin-top: 0;
+}
+#centerLcolumn .blockContent, #centerRcolumn .blockContent, #bottomLcolumn .blockContent, #bottomRcolumn .blockContent {
+        border-left: 1px solid #ccc; border-right: 1px solid #ccc; border-bottom: 1px solid #ddd; padding: 3px; margin-left: 2px; margin-right: 3px; margin-bottom: 2px; line-height: 1.2em;
+}
+
+#content {text-align: left;}
+
+#rightcolumn {width: 170px; border-left: 1px solid #ccc; font-size:1em;}
+#rightcolumn th {background-color: #2A75C5; color: #fff; vertical-align: middle;}
+#rightcolumn .blockTitle {padding: 3px; background-color: #ddd; color: #2A75C5; font-weight: bold;}
+#rightcolumn .blockContent {padding: 3px; line-height: 1.2em;}
+
+#footerbar { background-image: url(hbar.gif); font-size:.9em; height : 23px;}
+#footerbar td { vertical-align : middle; text-align:center;}
+
+#mainmenu a {background-color: #e6e6e6; display: block; margin: 0; padding: 4px;}
+#mainmenu a:hover {background-color: #fff;}
+#mainmenu a.menuTop {padding-left: 3px; border-top: 1px solid #c0c0c0; border-right: 1px solid #666; border-bottom: 1px solid #666; border-left: 1px solid #c0c0c0;}
+#mainmenu a.menuMain {padding-left: 3px; border-right: 1px solid #666; border-bottom: 1px solid #666; border-left: 1px solid #c0c0c0;}
+#mainmenu a.menuSub {padding-left: 9px; border-right: 1px solid #666; border-bottom: 1px solid #666; border-left: 1px solid #c0c0c0;}
+
+#usermenu {        font-size : .9em;}
+#usermenu a {background-color: #e6e6e6; display: block; margin: 0; padding: 2px; border-right: 1px solid #666; border-bottom: 1px solid #666; border-left: 1px solid #c0c0c0; font-weight : normal;}
+#usermenu a:hover {background-color: #fff;}
+#usermenu a.menuTop {border-top: 1px solid #c0c0c0;}
+#usermenu a.highlight {background-color: #fcc;}
+
+
+caption {font-weight: bold;}
+th, thead {background-color: #2A75C5; padding : 2px; color: #fff; vertical-align : middle;}
+.outer {border: 1px solid #c0c0c0;}
+.head {background-color: #c2cdd6; padding: 5px; font-weight: bold;}
+.even {background-color: #dee3e7; padding: 5px;}
+.odd {background-color: #E9E9E9; padding: 5px;}
+.foot {background-color: #c2cdd6; padding: 5px; font-weight: bold;}
+tr.even td {background-color: #dee3e7; padding: 5px;}
+tr.odd td {background-color: #E9E9E9; padding: 5px;}
+tr.foot td {background-color: #c2cdd6; padding: 5px; color:inherit; font-weight: bold;}
+
+.errorMsg,.confirmMsg, .resultMsg  { padding: .8em; text-align:center; margin-bottom: 1em; border: 2px solid #ddd;}
+.errorMsg  { background-color: #FBE3E4; color: #D12F19; border-color: #FBC2C4; }
+.confirmMsg { background-color: #FFF6BF; color: #817134; border-color: #FFD324; }
+.resultMsg { background-color: #E6EFC2; color: #529214; border-color: #C6D880; text-align:left;}
+.errorMsg a { background-color: transparent; color: #D12F19; }
+.confirmMsg a { background-color: transparent; color: #817134; }
+.successMsg a { background-color: transparent; color: #529214; }
+
+.xoopsCode { background: #fff; border: 1px inset #000080; font-family: "Courier New",Courier,monospace; padding: 0 6px 6px 6px; height: 200px; overflow: auto; font-size:.9em;}
+.xoopsQuote { background: #fff; border: 1px inset #000080; font-family: "Courier New",Courier,monospace; padding: 0 6px 6px 6px; font-size:.9em;}
+blockquote {font-style : italic; line-height:1.4em;}
+
+.comTitle {font-weight: bold; margin-bottom: 2px;}
+.comText {padding: 2px;}
+.comUserStat {font-size: .9em; color: #2A75C5; font-weight:bold; border: 1px solid #c0c0c0; background-color: #fff; margin: 2px; padding: 2px;}
+.comUserStatCaption {font-weight: normal;}
+.comUserStatus {margin-left: 2px; margin-top: 10px; color: #2A75C5; font-weight:bold; font-size: .9em;}
+.comUserRank {margin: 2px;}
+.comUserRankText {font-size: .9em;font-weight:bold;}
+.comUserRankImg {border: 0;}
+.comUserName a {color: #fff;}
+.comUserImg {margin: 2px;}
+.comDate {font-weight: normal; font-style: italic; font-size: .8em;}
+.comDateCaption {font-weight: bold; font-style: normal;}
+
+/*============== Styles for system_siteclosed.html  (override system module) =================*/
+#xo-siteclose {
+    width:                  400px;
+    margin:                 100px auto;
+    background-color:       #e2e2e2;
+    padding:                30px;
+    color:                  #000;
+    font-size:              1.2em;
+    font-weight:            bold;
+    text-align:             center;
+    border:                 1px solid #666;
+}
+#xo-userbar_siteclosed {
+    display:                block;
+    background:             #2A75C5 url(xo-banner_bg.png) repeat-x left top;
+    padding-top:            2px;
+    padding-right:          1em;
+    color:                  #fff;
+    font-size :             .8em;
+    text-align :            center;
+}
+#xo-userbar_siteclosed form {
+    display:                inline;
+    padding:                0;
+}
+
+#xo-userbar_siteclosed input {
+    width:                  50px;
+    background-color:       transparent;
+    color:                  #fff;
+    font-size :             .9em;
+}
+#xo-userbar_siteclosed input:hover {}
+
+/*============== Styles for system_redirect.html (override system module) =================*/
+#xo-redirect {
+    width:                  780px;
+    margin:                 50px auto;
+    padding:                1em;
+    font-weight:            bold;
+    text-align:             center;
+}
+#xo-redirect .notreload {
+    height:                 28px;
+    background-color:       inherit;
+    padding-top:            2px;
+    color:                  #000;
+}
+#xo-redirect .notreload a {
+    background-color:       inherit;
+    color:                  #ff0000;
+    font-weight:            bold;
+    text-decoration:        none;
+}
+#xo-redirect .message {
+    min-height:             60px;
+    background-color:       #f3f3f3;
+    padding:                1em;
+    color:                  #333;
+    font-size:              1.2em;
+    text-align:             center;
+    border:                 1px solid #666;
+}
+#xo-redirect .message img{
+    padding:                1em;
+}
+/*============== Styles for pagenav =================*/
+#xo-pagenav {
+    margin:                 30px 0 0 0;
+    text-align:             center;
+    font-size:              1.05em;
+}
+#xo-pagenav a {
+    text-decoration:        none;
+}
+#xo-pagenav a:hover {
+    color:                  #fff;
+    background-color:       #3399FF;
+    border:                 1px solid #3399FF;
+}
+.xo-pagact {
+    margin:                 0;
+    padding:                .2em .5em;
+    color:                  #fff;
+    background-color:       #3399FF;
+    border:                 1px solid #3399FF;
+}
+.xo-counterpage, .xo-pagarrow {
+    margin:                 0;
+    padding:                .2em .5em;
+    color:                  #999;
+    background-color:       #fff;
+    border:                 1px solid #CCC;
+}
+.xo-counterpage:hover {}
+.xo-pagarrow {
+    letter-spacing:         0.2em;
+}
+/*======= Tinymce background textarea ========*/
+body.mceContentBody {
+    margin:                 0;
+    padding:                0;
+    background-color:       #fff;
+    background-image:       none;
+    color:                  #000;
+}
+
+.clearfix {
+    clear: both;
+}
+
+.container {
+    width: 1002px;
+    margin: 0 auto;
+}
+
+.xoops-isuser {
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    color: #FFF;
+}
+
+.xoops-isuser a {
+    color: #FFF;
+}
+
+.xoops-isuser a:hover {
+    color: #333;
+}
+
+.header {
+    position: relative;
+    height: 47px;
+    background: url("../images/header-bg.jpg") 0 0 no-repeat;
+    padding: 83px 0 0 40px;
+    margin-bottom: 1px;
+}
+
+.header-contact {
+    background: url("") left center no-repeat;
+    padding-left: 20px;
+}
+
+.calendar {
+    float: left;
+    width: 225px;
+    padding-top: 10px;
+
+}
+
+.nav {
+    float: left;
+}
+
+.nav ul li {
+    float: left;
+    list-style: none;
+}
+
+.nav ul li a {
+    display: block;
+    text-align: center;
+    color: #FFF;
+    width: 96px;
+    height: 34px;
+    line-height: 34px;
+    background: url("../images/nav-bg.jpg") 0 0 no-repeat;
+}
+
+.nav ul li a:hover {
+    background: url("../images/nav-bg.jpg") 0 -34px no-repeat;
+}
+
+.nav ul li .active {
+    display: block;
+    text-align: center;
+    color: #FFF;
+    width: 96px;
+    height: 34px;
+    line-height: 34px;
+    background: url("../images/nav-bg.jpg") 0 -34px no-repeat;
+}
+
+#content {
+    background: url("../images/content-bg.jpg") 0 0 repeat-y;
+    margin: 1px 0;
+}
+
+.module-menu {
+    float: left;
+    width: 200px;
+    margin-right: 52px;
+}
+
+.module-menu h2 {
+    padding-left: 25px;
+    margin-left: 25px;
+    background: url("../images/menu-title-ico.png") left center no-repeat;
+    color: #FFF;
+}
+
+.module-menu ul {
+    padding: 0 30px 20px 30px;
+    margin: 0;
+    background-color: #F0F0F0;
+}
+
+.module-menu ul li {
+    list-style: none;
+    line-height: 50px;
+    border-bottom: 1px solid #CCC;
+    margin: 0;
+    padding: 0;
+}
+
+.module-menu ul li a {
+    display: block;
+    color: #333;
+    background: url("../images/menu-list-ico.png") left center no-repeat;
+    padding-left: 20px;
+}
+
+.module-menu ul li a:hover {
+    color: #3399FF;
+}
+
+.module-menu ul li a.active {
+    display: block;
+    color: #3399FF;
+    background: url("../images/menu-list-ico.png") left center no-repeat;
+    padding-left: 20px;
+}
+
+.module-menu p {
+    padding: 0 25px;
+    line-height: 24px;
+}
+
+.module-content {
+    float: left;
+    width: 750px;
+    padding-bottom: 50px;
+}
+
+.home-content {
+    float: left;
+    width: 510px;
+    margin-right: 40px;
+    padding-top: 20px;
+}
+
+.home-about {
+    /*border-bottom: 1px dashed #CCC;*/
+    padding-bottom: 20px;
+    color: #333;
+}
+
+.home-about h3 {
+    width: 710px;
+    height: 25px;
+    margin: 0 0 10px 0;
+    background: url("../images/home-about-title-bg.jpg") 0 0 no-repeat;
+}
+
+.home-about img {
+    margin-right: 15px;
+}
+
+.home-about p {
+    text-indent: 2em;
+    line-height: 23px;
+}
+
+.home-about a {
+    color: #3399FF;
+}
+
+.home-about a:hover {
+    color: #333;
+}
+
+.home-product h3 {
+    width: 710px;
+    height: 25px;
+    background: url("./images/home-product-title-bg.jpg") 0 0 no-repeat;
+}
+
+.home-rightbar {
+    float: left;
+    width: 200px;
+    padding-top: 20px;
+}
+
+
+.home-knowledge h3 {
+    height: 25px;
+    line-height: 25px;
+    margin: 0 0 10px 0;
+    padding-left: 30px;
+    background: url("./images/menu-title-ico.png") 10px center no-repeat #3399FF;
+    color: #FFF;
+}
+
+
+.home-knowledge-list {
+    padding: 10px 10px 0 10px;
+    border: 5px solid #3399FF;
+    border-radius: 10px;
+}
+
+.home-knowledge-list ul li {
+    
+    height: 22px;
+    margin-bottom: 5px;
+    color: #3399FF;
+    overflow: hidden;
+}
+
+.breadcrumbs {
+    border-bottom: 1px solid #CCC;
+    line-height: 50px;
+}
+
+.breadcrumbs span {
+    border-left: 5px solid #3399FF;
+    padding-left: 10px;
+}
+
+.module-content-main {
+    font-size: 14px;
+    color: #333;
+    line-height: 28px;
+    min-height:300px;
+    _height:300px;
+}
+
+.module-content-main p {
+    text-indent: 2em;
+}
+
+.module-list ul li {
+    font-size: 12px;
+    line-height: 40px;
+    border-bottom: 1px dotted #CCC;
+    color: #3399FF;
+}
+
+.module-list ul li span {
+    color: #999;
+}
+
+.module-list ul li a {
+    display: block;
+}
+
+.module-list-content h3 {
+    text-align: center;
+}
+
+.module-list-content .list-meta {
+    text-align: center;
+    border: 1px solid #EAEAEA;
+    background-color: #F8F8F8;
+    font-size: 12px;
+    line-height: 30px;
+}
+
+.product-list {
+    margin-top: 20px;
+}
+
+.product-list ul li {
+    width: 236px;
+    float: left;
+    list-style: none;
+    margin-right: 21px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.sublinks ul li {
+    margin-top: 20px;
+}
+
+.footer {
+    clear: both;
+    height: 100px;
+    text-align: center;
+    padding: 43px 0 0 0;
+    color: #FFF;
+    background: url("../images/footer-bg.jpg") 0 0 no-repeat;
+}
+
+.footer a {
+    padding: 0 10px;
+    color: #FFF;
+}
+
+.footer a:hover {
+    color: #333;
+}
+
+.subnav {
+    margin-bottom: 10px;
+}
+
+.ds-powered-by {
+    display: none;
+}
+.nodsp{display:none;}
+
+.lul  li{float:left;}
+
+.module-content-main h2{text-align:center;}

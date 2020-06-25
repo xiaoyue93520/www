@@ -1,0 +1,28 @@
+#divbanner,#divnav,#divbottom,#divtotop{
+display:none;
+}
+
+
+.html,#divmain
+{
+ 	margin:0px auto;
+	width:680px;
+	height:100%;
+	
+}
+#divmain {
+	padding-top:0px;
+	border:blue solid 1px;
+}
+
+.content{
+margin-top:-20px;
+padding-top:-30px;
+}
+
+#divtext{
+width:690px;
+padding:0px;
+margin:0px auto;
+}
+

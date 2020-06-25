@@ -1,0 +1,2 @@
+document.write("<div class=\"footer\">\r\n        <div class=\"subnav\">\r\n            | \r\n            <a href=\"/about/\">关于我们</a> | \r\n            <a href=\"/yao/\">药品信息</a> | \r\n            <a href=\"/jiankang/\">健康知识</a>  | \r\n            <a href=\"/contact/\">联系我们</a>\r\n            |\r\n        </div>\r\n				<p>本网站不涉及药品交易、不撮合药品交易、不发布麻醉药品、精神药品、医疗用毒性药品、放射性药品、性药品、戒毒药品和医疗机构制剂的药品信息</p>\r\n        河北民寿堂致臻医药零售连锁有限公司  河北省廊坊市三河市皇庄镇皇庄大街131号 \r\n        <div class=\"clearfix\"></div>\r\n</div>") 
+ 
